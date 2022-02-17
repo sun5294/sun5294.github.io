@@ -136,7 +136,7 @@
   });
 
 
-  function aaa(){
-    alert("success");
-  }
+  $("#aaa").onclick(function(){
+    alert("aaa");
+  } )
 })(jQuery);
